@@ -198,7 +198,7 @@ figure {
     @media screen and (max-width: 768px) {
       #colorlib-aside .colorlib-footer {
         position: relative;
-        bottom: 0; } }
+        bottom: auto; } }
     #colorlib-aside .colorlib-footer span {
       display: block; }
     #colorlib-aside .colorlib-footer ul {
@@ -210,12 +210,13 @@ figure {
         display: inline;
         list-style: none; }
         #colorlib-aside .colorlib-footer ul li a {
-          color: rgba(255, 255, 255, 0.3);
+          color: rgba(0, 0, 0, 0.3);
           padding: 4px; }
           #colorlib-aside .colorlib-footer ul li a:hover, #colorlib-aside .colorlib-footer ul li a:active, #colorlib-aside .colorlib-footer ul li a:focus {
             text-decoration: none;
             outline: none;
-            color: #2c98f0; }
+            color: #2c98f0;
+            }
 
 .container-wrap {
   max-width: 1170px;
@@ -285,7 +286,7 @@ figure {
       z-index: 9; }
       #colorlib-hero .flexslider .slider-text > .slider-text-inner {
         display: table-cell;
-        vertical-align: middle;
+        vertical-align: top;
         min-height: 700px;
         padding: 2.5em;
         position: relative; }
@@ -295,7 +296,8 @@ figure {
         #colorlib-hero .flexslider .slider-text > .slider-text-inner h1, #colorlib-hero .flexslider .slider-text > .slider-text-inner h2 {
           margin: 0;
           padding: 0;
-          color: black;
+          /*where to change color for the intro page text*/
+          color: rgb(56, 56, 56);
           font-family: "Playfair Display", Georgia, serif; }
         #colorlib-hero .flexslider .slider-text > .slider-text-inner h1 {
           margin-bottom: 20px;
