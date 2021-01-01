@@ -14,7 +14,7 @@
 body {
   font-family: "Quicksand", Arial, sans-serif;
   font-weight: 400;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 1.8;
   color: rgba(0, 0, 0, 0.7); }
   @media screen and (max-width: 992px) {
@@ -32,7 +32,7 @@ a {
     text-decoration: none !important; }
 
 p {
-  margin-bottom: 1.5em; }
+  margin-bottom: 2px; }
 
 h1, h2, h3, h4, h5, h6 {
   color: #000;
@@ -198,7 +198,7 @@ figure {
     @media screen and (max-width: 768px) {
       #colorlib-aside .colorlib-footer {
         position: relative;
-        bottom: auto; } }
+        bottom: 0; } }
     #colorlib-aside .colorlib-footer span {
       display: block; }
     #colorlib-aside .colorlib-footer ul {
@@ -508,7 +508,8 @@ body.offcanvas {
 
 .timeline-centered {
   position: relative;
-  margin-bottom: 30px; }
+  margin-bottom: 30px;
+  line-height: 1.7em; }
 
 .timeline-centered:before, .timeline-centered:after {
   content: " ";
@@ -563,13 +564,15 @@ body.offcanvas {
   .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon i {
     color: #fff; }
   .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.color-2 {
-    background: #ec5453; }
+    background: #54793e; }
   .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.color-3 {
-    background: #f9bf3f; }
+    background: #084c61; }
   .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.color-4 {
-    background: #a84cb8; }
+    background: #30011e; }
   .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.color-5 {
-    background: #2fa499; }
+    background: #d7fcd4; }
+  .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.color-6 {
+    background: #e0ca3c; }
   .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.color-none {
     background: #fff;
     width: 20px;
@@ -599,7 +602,7 @@ body.offcanvas {
   margin-left: -9px; }
 
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label p + p {
-  margin-top: 15px; }
+  margin-top: 2px; }
 
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label h2 {
   font-size: 20px;

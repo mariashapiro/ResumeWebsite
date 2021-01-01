@@ -14,7 +14,7 @@ export default class About extends Component {
                       <span className="heading-meta">About Me</span>
                       <h2 className="colorlib-heading">Who Am I?</h2>
                       <p>I am an undergraduate student at Georgia Institute of Technology studying Computer Science with threads in Info Networks and People. Right now, I am deciding between pursuing a traditional software engineering role versus a program mananger role.</p>
-                      <p>I am originally from Maryland, close to the DC border, and I am an absolute fiend for Fall weather, anything with wheels (driving! longboarding! quad-skating!) and plants <i className="icon-heart" aria-hidden="true" /></p>
+                      <p>I am originally from Maryland, close to the DC border, and I am an absolute fiend for Fall weather, anything with wheels (manual cars! longboarding! quad-skating!) and plants <i className="icon-heart" aria-hidden="true" /></p>
                     </div>
                   </div>
                 </div>
@@ -22,7 +22,7 @@ export default class About extends Component {
             </div>
           </div>
         </section>
-        <section className="colorlib-about">
+        {/* <section className="colorlib-about">
           <div className="colorlib-narrow-content">
             <div className="row">
               <div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
@@ -66,7 +66,7 @@ export default class About extends Component {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
       </div>
     )
   }
