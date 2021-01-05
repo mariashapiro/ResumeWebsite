@@ -35,7 +35,7 @@ export default class Sidebar extends Component {
                 <li><a href="https://github.com/mariashapiro" target="_blank" rel="noopener noreferrer"><i className="icon-github"></i></a></li>
               </ul>
             <p><small>
-                Updated December 2020
+                Updated January 2021
               </small></p>
               <p><small>
                 Made with <i className="icon-heart" aria-hidden="true" /> and electronic music<br></br>

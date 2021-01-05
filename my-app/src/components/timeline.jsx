@@ -110,7 +110,7 @@ export default class Timeline extends Component {
                       <div className="timeline-label">
                         <h2>Founder @ English and Programming <span>Fall 2014 - Summer 2018</span></h2>
                         <p>Check out an article about E&P in the Washingtonian <a href={"https://www.washingtonian.com/2018/03/22/student-teaches-kids-to-code/"} target="_blank" rel="noopener noreferrer">here</a>!</p>
-                        <p>•	Founded non-profit that <b>taught STEM</b> skills in 2 Polish schools and 9 U.S. schools to close the opportunity gap</p>
+                        <p>•	Founded organization that <b>taught STEM</b> skills in 2 Polish schools and 9 U.S. schools to close the opportunity gap</p>
                         <p>•	Developed curriculum containing skills in <b>Java, robotics, cybersecurity, Arduino, 3D printing, drones,</b> and more</p>
                       </div>
                     </div>
@@ -135,7 +135,7 @@ export default class Timeline extends Component {
                       </div>
                       <div className="timeline-label">
                         <h2>Financial Analyst Intern @ B7 <span>Summer 2016</span></h2>
-                        <p>B7 is a venture Capital firm <b>investing</b> in <b>start-up technology</b> companies in the US, with a particular interest in data management, platforms, communications, and networking software for government solutions. I learned key indicators to look for when valuating a start-up tech company. Check out their website <a href={"https://www.b7inc.com/"} target="_blank" rel="noopener noreferrer">here</a>.</p>
+                        <p>B7 is a venture Capital firm <b>investing</b> in <b>start-up technology</b> companies in the US, with a particular interest in data management, platforms, communications, and networking software for government solutions. I learned key indicators to look for to value a start-up tech company. Check out their website <a href={"https://www.b7inc.com/"} target="_blank" rel="noopener noreferrer">here</a>.</p>
                       </div>
                     </div>
                   </article>

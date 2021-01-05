@@ -30,6 +30,7 @@ a {
     color: #2c98f0;
     outline: none;
     text-decoration: none !important; }
+    
 
 p {
   margin-bottom: 2px; }
@@ -55,6 +56,8 @@ figure {
       figure figcaption {
         width: 100%; } }
 
+::-webkit-scrollbar {display:none;}
+
 ::-webkit-selection {
   color: #fff;
   background: #2c98f0; }
@@ -70,7 +73,8 @@ figure {
 #colorlib-page {
   width: 100%;
   overflow: hidden;
-  position: relative; }
+  position: relative; 
+}
 
 #colorlib-aside {
   padding-top: 1em;
@@ -83,7 +87,9 @@ figure {
   background: #f2f3f7;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
-  transition: 0.5s; }
+  transition: 0.5s; 
+}
+  
   @media screen and (max-width: 768px) {
     #colorlib-aside {
       width: 300px;
@@ -92,7 +98,8 @@ figure {
       -ms-transform: translateX(-300px);
       -o-transform: translateX(-300px);
       transform: translateX(-300px);
-      padding-top: 4em; } }
+      padding-top: 4em; }
+     }
   #colorlib-aside .author-img {
     width: 150px;
     height: 150px;
@@ -130,9 +137,11 @@ figure {
       text-align: center;
       margin: 0;
       padding: 0; }
+      
       @media screen and (max-width: 768px) {
         #colorlib-aside #colorlib-main-menu ul {
-          margin: 0 0 2em 0; } }
+          margin: 0 0 2em 0; }
+         }
       #colorlib-aside #colorlib-main-menu ul li {
         margin: 0 0 10px 0;
         padding: 0;
