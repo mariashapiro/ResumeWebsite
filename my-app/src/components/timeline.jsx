@@ -15,6 +15,17 @@ export default class Timeline extends Component {
             <div className="row">
               <div className="col-md-12">
                 <div className="timeline-centered">
+                <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+                    <div className="timeline-entry-inner">
+                      <div className="timeline-icon color-2">
+                        <i className="icon-pen2" />
+                      </div>
+                      <div className="timeline-label">
+                        <h2>SWE Intern @ Microsoft <span>Summer 2021 <i>(in progress)</i></span></h2>
+                        <p>•	Currently working on the Xbox team to further develop the mobile app using <b>React Native</b></p>
+                      </div>
+                    </div>
+                  </article>
                   <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
                     <div className="timeline-entry-inner">
                       <div className="timeline-icon color-6">
@@ -86,7 +97,7 @@ export default class Timeline extends Component {
                         <h2>Computer Science @ Georgia Tech <span> Fall 2018 - Spring 2022</span></h2>
                         <p>Attempting to get my <b>Bachelor of Science</b> in <b>Computer Science</b> from Georgia Tech! As of December 2020, I am a third year and I plan to graduate in 3.5 years (I co-oped for two semesters!). My concentrations are <b>Info-Networks</b> and <b>People</b>.</p>
                         <p> </p>
-                        <p><i>Most recent relevant courses: CS4460 Intro to Information Visualization • CS4235 Intro to Information Security • CS2200 Systems and Networks • CS3510 Design and Analysis of Algorithms • CS1332 Data Structures and Algorithms • CS2110 Computer Organization and Programming</i></p>
+                        <p><i>Most recent relevant courses: CS3790 Intro to Cognitive Science • CS4235 Intro to Information Security • CS2200 Systems and Networks • CS3510 Design and Analysis of Algorithms • CS1332 Data Structures and Algorithms • CS2110 Computer Organization and Programming • CS2340 Object Oriented Principles and Design</i></p>
                       </div>
                     </div>
                   </article>
