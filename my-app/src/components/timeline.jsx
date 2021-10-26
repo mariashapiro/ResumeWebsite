@@ -21,8 +21,10 @@ export default class Timeline extends Component {
                         <i className="icon-pen2" />
                       </div>
                       <div className="timeline-label">
-                        <h2>SWE Intern @ Microsoft <span>Summer 2021 <i>(in progress)</i></span></h2>
-                        <p>•	Currently working on the Xbox team to further develop the mobile app using <b>React Native</b></p>
+                        <h2>SWE Intern @ Microsoft <span>Summer 2021</span></h2>
+                        <p>•	Developed friends and followers list for Xbox Mobile App using <b>React</b></p>
+                        <p>•	Implemented a favorite star on the profile page to promote consistency throughout the app </p>
+                        <p>•	Collaborated with a multitude of teams, including my PM, design, accessibility and contributed to the respoisitory shared by Xbox App, Family Settings App, Game Pass App, and xCloud</p>
                       </div>
                     </div>
                   </article>
@@ -47,6 +49,7 @@ export default class Timeline extends Component {
                         <h2>Explorer Intern @ Microsoft <span>Summer 2020</span></h2>
                         <p>•	Utilized <b>React Native for Windows, UWP, and C++</b> to implement Jump List and Badging</p>
                         <p>•	Delivered a full feature from design to PR on the Xbox App for PC, which has over <b>2 million</b> monthly active users</p>
+                        <img src="my-app\src\components\GarrisonJumpList.png" alt="contextual menu for xbox app for pc" width="254" height="509"></img>
                         <p>•	Led initiative for Xbox branded facial coverings for the intern class</p>
                       </div>
                     </div>

@@ -1,5 +1,15 @@
 import React, { Component } from 'react'
 
+function editDate() {
+
+  const date = new Date();
+  const monthNames = ["January", "February", "March", "April", "May", "June",
+  "July", "August", "September", "October", "November", "December"
+];
+
+  return monthNames[date.getMonth()] + " " + date.getFullYear();
+}
+
 export default class Sidebar extends Component {
 
   render() {
@@ -35,7 +45,7 @@ export default class Sidebar extends Component {
                 <li><a href="https://github.com/mariashapiro" target="_blank" rel="noopener noreferrer"><i className="icon-github"></i></a></li>
               </ul>
             <p><small>
-                Updated June 2021
+                Last updated {editDate()}
               </small></p>
               <p><small>
                 Made with <i className="icon-heart" aria-hidden="true" /> and electronic music<br></br>
