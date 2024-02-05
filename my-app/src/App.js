@@ -13,6 +13,7 @@ class App extends Component {
   render() {
     return (
       <>
+        <Analytics />
         <div id="colorlib-page">
           <div id="container-wrap">
             <Sidebar></Sidebar>
@@ -27,7 +28,6 @@ class App extends Component {
             </div>
           </div>
         </div>
-        <Analytics />
       </>
     );
   }
