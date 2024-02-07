@@ -1,12 +1,12 @@
-import React, { Component } from 'react';
-import './App.css';
-import Sidebar from './components/sidebar'
-import Introduction from './components/introduction'
-import About from './components/about'
-import Timeline from './components/timeline'
-import Activities from './components/activities'
-import Hobbies from './components/hobbies'
-import Projects from './components/projects'
+import React, { Component } from "react";
+import "./App.css";
+import Sidebar from "./components/sidebar";
+import Introduction from "./components/introduction";
+import About from "./components/about";
+import Timeline from "./components/timeline";
+import Activities from "./components/activities";
+import Hobbies from "./components/hobbies";
+import Projects from "./components/projects";
 
 class App extends Component {
   render() {
