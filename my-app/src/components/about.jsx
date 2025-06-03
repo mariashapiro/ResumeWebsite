@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { Component } from "react";
 
 export default class About extends Component {
   render() {
@@ -13,9 +13,17 @@ export default class About extends Component {
                     <div className="about-desc">
                       <span className="heading-meta">About Me</span>
                       <h2 className="colorlib-heading">Who Am I?</h2>
-                      <p>I am an undergraduate student at Georgia Institute of Technology studying Computer Science with threads in Info Networks and People. Right now, I am deciding between pursuing a traditional software engineering role versus a program mananger role.
-                        The plan is to graduate in Spring 2022, but before that I plan to study abroad in Fall 2021 in Seoul, South Korea at Yonsei University.</p>
-                      <p>I am originally from Maryland, super close to the DC border, and I am an absolute fiend for Fall weather, anything with wheels (manual cars! longboarding! quad-skating!) and plants <i className="icon-heart" aria-hidden="true" /></p>
+                      <p>
+                        I'm currently a Technical Program Manager (TPM) at Microsoft, working on moderation for Xbox and Xbox-owned studios
+                        to curtail toxicity and keep our gaming communities safer. I was a Software Engineer before that, but you can see
+                        more in the timeline section below! I received my BS in Computer Science from Georgia Tech with a brief stretch in
+                        Seoul to study abroad at Yonsei University.
+                      </p>
+                      <p>
+                        I love collecting hobbies, which also means their infatuation period could last awhile, or just for a short time.
+                        Currently I'm infatuated with ice hockey, playing 2-3 times per week for the Kraken Hockey League, and cycling!
+                        <i className="icon-heart" aria-hidden="true" />
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -24,6 +32,6 @@ export default class About extends Component {
           </div>
         </section>
       </div>
-    )
+    );
   }
 }
