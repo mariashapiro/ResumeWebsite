@@ -71,8 +71,8 @@ export default class Timeline extends Component {
                           • Supported <b> front and back end</b> functions for the Xbox Family Safety App{" "}
                         </p>
                         <p>
-                          • Collaborated with a multitude of teams, including my PM, design, accessibility and contributed to the
-                          respoisitory shared by Xbox App, Family Settings App, Game Pass App, and xCloud
+                          • Collaborated with a multitude of teams, including my PM, design, accessibility and contributed to the repository
+                          shared by Xbox App, Family Settings App, Game Pass App, and xCloud
                         </p>
                       </div>
                     </div>
@@ -161,12 +161,7 @@ export default class Timeline extends Component {
                           • Delivered a full feature from design to PR on the Xbox App for PC, which has over <b>2 million</b> monthly
                           active users
                         </p>
-                        <img
-                          src="my-app\src\components\GarrisonJumpList.png"
-                          alt="contextual menu for xbox app for pc"
-                          width="254"
-                          height="509"
-                        ></img>
+                        <img src="/images/GarrisonJumpList.png" alt="contextual menu for xbox app for pc" width="254" height="509"></img>
                         <p>• Led initiative for Xbox branded facial coverings for the intern class</p>
                       </div>
                     </div>
@@ -178,7 +173,7 @@ export default class Timeline extends Component {
                       </div>
                       <div className="timeline-label">
                         <h2>
-                          Residental IT Specialist @ Georgia Tech Office of Information Technology <span>Fall 2019 - Fall 2020</span>
+                          Residential IT Specialist @ Georgia Tech Office of Information Technology <span>Fall 2019 - Fall 2020</span>
                         </h2>
                         <p>• Responsible for all Georgia Tech affiliated accounts for password control and account permissions</p>
                         <p>

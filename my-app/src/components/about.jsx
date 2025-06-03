@@ -19,7 +19,7 @@ export default class About extends Component {
                         more in the timeline section below! I received my BS in Computer Science from Georgia Tech with a brief stretch in
                         Seoul to study abroad at Yonsei University, ultimately focusing on Cybersecurity, but have since pivoted. <br />
                         <br />
-                        I love collecting hobbies, which also means their infatuation period could last awhile, or just for a short time.
+                        I love collecting hobbies, which also means their infatuation period could last a while, or just for a short time.
                         Currently I'm infatuated with ice hockey, playing 2-3 times per week for the Kraken Hockey League, and cycling!
                         <i className="icon-heart" aria-hidden="true" />
                       </p>
