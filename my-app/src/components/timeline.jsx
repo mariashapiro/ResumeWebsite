@@ -22,15 +22,89 @@ export default class Timeline extends Component {
                       </div>
                       <div className="timeline-label">
                         <h2>
+                          Technical Program Manager @ Microsoft <span>Spring 2024 - Present</span>
+                        </h2>
+                        <p>
+                          • Doing a little bit of everything under the Sun to support{" "}
+                          <a
+                            href={"https://developer.microsoft.com/en-us/games/products/community-sift/"}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            Community Sift
+                          </a>{" "}
+                          moderation platform
+                        </p>
+                        <p>
+                          • My goal is to make my engineers' lives easier, whether it is to <b> protect their time</b>, gather project specs
+                          from Product, feedback from Design, <b> manage Leadership expectations</b>, or handle small technical feats that
+                          would have cost them a headache
+                        </p>
+                        <p>
+                          • Document <b> architecture reviews, prioritize projects</b> and their implementation, gather the resources needed
+                          to fulfill the promise on time
+                        </p>
+                      </div>
+                    </div>
+                  </article>
+                  <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+                    <div className="timeline-entry-inner">
+                      <div className="timeline-icon color-2">
+                        <i className="icon-pen2" />
+                      </div>
+                      <div className="timeline-label">
+                        <h2>
                           Software Engineer @ Microsoft <span>Summer 2022 - Spring 2024</span>
                         </h2>
                         <p>
-                          • Developed friends and followers list for Xbox Mobile App using <b>React</b>
+                          • Implemented the front end for a new feature, <b> Reactive Voice Reporting</b> , which you can see{" "}
+                          <a
+                            href={"https://news.xbox.com/en-us/2023/07/12/xbox-voice-reporting-feature/"}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            here
+                          </a>
+                          !
                         </p>
-                        <p>• Implemented a favorite star on the profile page to promote consistency throughout the app </p>
+                        <p>
+                          • Supported <b> front and back end</b> functions for the Xbox Family Safety App{" "}
+                        </p>
                         <p>
                           • Collaborated with a multitude of teams, including my PM, design, accessibility and contributed to the
                           respoisitory shared by Xbox App, Family Settings App, Game Pass App, and xCloud
+                        </p>
+                      </div>
+                    </div>
+                  </article>
+                  <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+                    <div className="timeline-entry-inner">
+                      <div className="timeline-icon color-6">
+                        <i className="icon-pen2" />
+                      </div>
+                      <div className="timeline-label">
+                        <h2>
+                          Finished Computer Science @ Georgia Tech <span> Spring 2022</span>
+                        </h2>
+                        <p>
+                          • Graduated with <b>Highest Honors</b> with a Bachelor of Science in <b>Computer Science</b> in only 7 semesters,
+                          including a semester in Seoul, Korea.
+                        </p>
+                        <p>
+                          • Concentrated in{" "}
+                          <b> Cybersecurity, worked part-time for 5 semesters + 2 full-time co-ops + 2 internships, volunteered with</b>{" "}
+                          <a href={"https://bitsofgood.org/"} target="_blank" rel="noopener noreferrer">
+                            Bits of Good
+                          </a>{" "}
+                          <b> for 2, directed hackathons for 4, and business x tech club for 6.</b>
+                        </p>
+                        <p>
+                          <i>
+                            <br />
+                            Relevant courses: CS3790 Intro to Cognitive Science • CS4235 Intro to Information Security • CS2200 Systems and
+                            Networks • CS3510 Design and Analysis of Algorithms • CS1332 Data Structures and Algorithms • CS2110 Computer
+                            Organization and Programming • CS2340 Object Oriented Principles and Design
+                          </i>
                         </p>
                       </div>
                     </div>
@@ -48,10 +122,6 @@ export default class Timeline extends Component {
                           • Developed friends and followers list for Xbox Mobile App using <b>React</b>
                         </p>
                         <p>• Implemented a favorite star on the profile page to promote consistency throughout the app </p>
-                        <p>
-                          • Collaborated with a multitude of teams, including my PM, design, accessibility and contributed to the
-                          respoisitory shared by Xbox App, Family Settings App, Game Pass App, and xCloud
-                        </p>
                       </div>
                     </div>
                   </article>
@@ -166,21 +236,8 @@ export default class Timeline extends Component {
                       </div>
                       <div className="timeline-label">
                         <h2>
-                          Computer Science @ Georgia Tech <span> Fall 2018 - Spring 2022</span>
+                          Started Computer Science @ Georgia Tech <span> Fall 2018</span>
                         </h2>
-                        <p>
-                          Attempting to get my <b>Bachelor of Science</b> in <b>Computer Science</b> from Georgia Tech! As of December 2020,
-                          I am a third year and I plan to graduate in 3.5 years (I co-oped for two semesters!). My concentrations are{" "}
-                          <b>Info-Networks</b> and <b>People</b>.
-                        </p>
-                        <p> </p>
-                        <p>
-                          <i>
-                            Most recent relevant courses: CS3790 Intro to Cognitive Science • CS4235 Intro to Information Security • CS2200
-                            Systems and Networks • CS3510 Design and Analysis of Algorithms • CS1332 Data Structures and Algorithms • CS2110
-                            Computer Organization and Programming • CS2340 Object Oriented Principles and Design
-                          </i>
-                        </p>
                       </div>
                     </div>
                   </article>

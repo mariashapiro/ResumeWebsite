@@ -17,9 +17,8 @@ export default class About extends Component {
                         I'm currently a Technical Program Manager (TPM) at Microsoft, working on moderation for Xbox and Xbox-owned studios
                         to curtail toxicity and keep our gaming communities safer. I was a Software Engineer before that, but you can see
                         more in the timeline section below! I received my BS in Computer Science from Georgia Tech with a brief stretch in
-                        Seoul to study abroad at Yonsei University.
-                      </p>
-                      <p>
+                        Seoul to study abroad at Yonsei University, ultimately focusing on Cybersecurity, but have since pivoted. <br />
+                        <br />
                         I love collecting hobbies, which also means their infatuation period could last awhile, or just for a short time.
                         Currently I'm infatuated with ice hockey, playing 2-3 times per week for the Kraken Hockey League, and cycling!
                         <i className="icon-heart" aria-hidden="true" />
