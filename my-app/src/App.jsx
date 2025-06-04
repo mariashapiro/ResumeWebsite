@@ -1,3 +1,4 @@
+import ThemeToggle from "./components/ThemeToggle.jsx";
 import React, { Component } from "react";
 import "./App.css";
 import Sidebar from "./components/sidebar.jsx";
@@ -13,6 +14,7 @@ class App extends Component {
   render() {
     return (
       <>
+        <ThemeToggle />
         <Analytics />
         <div id="colorlib-page">
           <div id="container-wrap">
@@ -20,11 +22,10 @@ class App extends Component {
             <div id="colorlib-main">
               <Introduction></Introduction>
               <About></About>
-              {/* <Hobbies></Hobbies> */}
               <Timeline></Timeline>
-              {/* <Activities></Activities> */}
-              {/* <Projects></Projects> */}
-              {/* <Blog></Blog> */}
+              {/* <Hobbies></Hobbies> 
+              <Activities></Activities>
+              <Projects></Projects>*/}
             </div>
           </div>
         </div>

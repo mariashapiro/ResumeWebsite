@@ -8,24 +8,6 @@
     />
     <meta name="theme-color" content="#000000" />
 
-    <!-- Theme initialization script - prevents flicker -->
-    <script>
-      (function() {
-        const getSystemTheme = () => {
-          return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
-        };
-        
-        const initTheme = () => {
-          const savedTheme = localStorage.getItem('portfolio-theme');
-          const theme = savedTheme || getSystemTheme();
-          document.documentElement.setAttribute('data-theme', theme);
-          return theme;
-        };
-        
-        initTheme();
-      })();
-    </script>
-
     <link rel="manifest" href="/manifest.json" />
     
     <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
@@ -49,8 +31,6 @@
     <link rel="stylesheet" href="/css/owl.theme.default.min.css">
     <!-- Theme style  -->
     <link rel="stylesheet" href="/css/style.css">
-    <!-- Dark theme variables -->
-    <link rel="stylesheet" href="/css/dark-theme.css">
 
     <!-- Modernizr JS -->
     <script src="/js/modernizr-2.6.2.min.js"></script>
