@@ -1,0 +1,154 @@
+{
+  "id": "brownies",
+  "title": "Brownies",
+  "slug": "brownies",
+  "category": "Bars",
+  "tags": ["bars", "chocolate", "brownies"],
+  "author": "Daniel",
+  "dateCreated": "2025-06-04",
+  "dateModified": "2025-06-04",
+  "servings": 24,
+  "totalTime": "",
+  "description": "Your basic brownie",
+  "image": "",
+  "ingredients": [
+    {
+      "item": "Butter",
+      "amount": 170,
+      "unit": "grams",
+      "method": "Cream",
+      "type": "Wet"
+    },
+    {
+      "item": "Cocoa powder",
+      "amount": 97,
+      "unit": "grams",
+      "method": "Cream",
+      "type": "Wet"
+    },
+    {
+      "item": "Brown Sugar",
+      "amount": 150,
+      "unit": "grams",
+      "method": "",
+      "type": "Wet"
+    },
+    {
+      "item": "Sugar",
+      "amount": 200,
+      "unit": "grams",
+      "method": "",
+      "type": "Wet"
+    },
+    {
+      "item": "Eggs",
+      "amount": 4,
+      "unit": "count",
+      "method": "Room temp",
+      "type": "Wet"
+    },
+    {
+      "item": "Espresso",
+      "amount": 1,
+      "unit": "tablespoon",
+      "method": "",
+      "type": "Wet"
+    },
+    {
+      "item": "Vanilla Extract",
+      "amount": 2,
+      "unit": "tablespoon",
+      "method": "",
+      "type": "Wet"
+    },
+    {
+      "item": "Cocoa powder",
+      "amount": 97,
+      "unit": "grams",
+      "method": "Cream",
+      "type": "Wet"
+    },
+    {
+      "item": "Chocolate",
+      "amount": 97,
+      "unit": "grams",
+      "method": "Cream",
+      "type": "Wet"
+    },
+    {
+      "item": "All purpose flour",
+      "amount": 122,
+      "unit": "grams",
+      "method": "Fold",
+      "type": "Dry"
+    },
+    {
+      "item": "Salt",
+      "amount": 1,
+      "unit": "teaspoon",
+      "method": "Fold",
+      "type": "Dry"
+    },
+    {
+      "item": "Cocoa powder",
+      "amount": 97,
+      "unit": "grams",
+      "method": "Cream",
+      "type": "Wet"
+    },
+    {
+      "item": "Baking powder",
+      "amount": 0.5,
+      "unit": "teaspoon",
+      "method": "Fold",
+      "type": "Dry"
+    },
+    {
+      "item": "Flaky salt",
+      "amount": 2,
+      "unit": "teaspoon",
+      "method": "Topping",
+      "type": "Optional"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "instruction": "Clean workstation, oven to 350 F",
+      "image": ""
+    },
+    {
+      "step": 2,
+      "instruction": "Combine dry, sift cocoa powder",
+      "image": ""
+    },
+    {
+      "step": 3,
+      "instruction": "Cream wet",
+      "image": ""
+    },
+    {
+      "step": 4,
+      "instruction": "Combine all wet (not chocolate) and whip 5-7 min",
+      "image": ""
+    },
+    {
+      "step": 5,
+      "instruction": "Add melted chocolate to combine, mix 30 sec",
+      "image": ""
+    },
+    {
+      "step": 6,
+      "instruction": "Fold in dry",
+      "image": ""
+    },
+    {
+      "step": 7,
+      "instruction": "Bake 23 min",
+      "image": ""
+    }
+  ],
+  "tips": ["tip1", "tip2"],
+  "variations": ["variation1", "variation2"],
+  "storage": "storage tbd"
+}
