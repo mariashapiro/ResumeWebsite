@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import { Component } from "react";
 
 export default class Activities extends Component {
   render() {
@@ -23,6 +23,6 @@ export default class Activities extends Component {
           </div>
         </section>
       </div>
-    )
+    );
   }
 }
