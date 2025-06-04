@@ -1,5 +1,4 @@
 import ThemeToggle from "./components/ThemeToggle.jsx";
-import { Component } from "react";
 import "./App.css";
 import Sidebar from "./components/sidebar.jsx";
 import Introduction from "./components/introduction.jsx";
@@ -11,29 +10,28 @@ import Projects from "./components/projects.jsx";
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/react";
 
-class App extends Component {
-  render() {
-    return (
-      <>
-        <Analytics />
-        <SpeedInsights />
-        <ThemeToggle />
-        <div id="colorlib-page">
-          <div id="container-wrap">
-            <Sidebar></Sidebar>
-            <div id="colorlib-main">
-              <Introduction></Introduction>
-              <About></About>
-              <Timeline></Timeline>
-              {/* <Hobbies></Hobbies> 
-              <Activities></Activities>
-              <Projects></Projects>*/}
-            </div>
+const App = () => {
+  return (
+    <>
+      <Analytics />
+      <SpeedInsights />
+      <ThemeToggle />
+      <div id="colorlib-page">
+        <div id="container-wrap">
+          <Sidebar />
+          <div id="colorlib-main">
+            <Introduction />
+            <About />
+            <Timeline />
+            {/* Future sections - uncomment when ready */}
+            {/* <Hobbies />
+            <Activities />
+            <Projects /> */}
           </div>
         </div>
-      </>
-    );
-  }
-}
+      </div>
+    </>
+  );
+};
 
 export default App;
