@@ -12,7 +12,7 @@ export default defineConfig({
     outDir: "dist",
   },
   define: {
-    // ✅ Inject build date at build time - automatically updates!
+    // Inject build date at build time
     __BUILD_DATE__: JSON.stringify(new Date().toISOString()),
   },
 });

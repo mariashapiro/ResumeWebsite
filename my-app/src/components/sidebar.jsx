@@ -1,5 +1,5 @@
 const Sidebar = () => {
-  // ✅ Get the actual deployment/build date - automatically set during build!
+  // get deployment date from build
   const getDeploymentDate = () => {
     try {
       // __BUILD_DATE__ is injected by Vite at build time
