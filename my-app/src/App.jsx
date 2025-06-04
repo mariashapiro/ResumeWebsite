@@ -13,8 +13,6 @@ import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/react";
 
 const App = () => {
-  console.log("App component rendering...");
-
   return (
     <Router>
       <Analytics />
@@ -48,17 +46,6 @@ const App = () => {
               element={
                 <div id="colorlib-main" style={{ marginLeft: 0, width: "100%" }}>
                   <DanielBaking />
-                </div>
-              }
-            />
-
-            {/* Catch-all route for debugging */}
-            <Route
-              path="*"
-              element={
-                <div style={{ padding: "20px", color: "red" }}>
-                  <h1>Route not found - App is working!</h1>
-                  <p>Current path: {window.location.pathname}</p>
                 </div>
               }
             />
