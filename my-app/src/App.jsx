@@ -12,7 +12,6 @@ import DanielBaking from "./components/DanielBaking.jsx";
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/react";
 
-// ✅ Main App with routing support
 const App = () => {
   return (
     <Router>

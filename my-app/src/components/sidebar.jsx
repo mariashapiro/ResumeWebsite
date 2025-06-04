@@ -55,7 +55,7 @@ const Sidebar = () => {
         </nav>
         <aside id="colorlib-aside" className="border js-fullheight">
           <div className="text-center">
-            <div className="author-img" style={{ backgroundImage: "url(images/about.jpg)" }} />
+            <div className="author-img" style={{ backgroundImage: "url(./images/about.jpg)" }} />
             <h1 id="colorlib-logo">
               <a href="index.html">Maria Shapiro</a>
             </h1>
