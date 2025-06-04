@@ -1,0 +1,322 @@
+/* =======================================================
+*
+* Dark Theme CSS Variables and Overrides
+build dist index.html index.html.backup node_modules package-lock.json package.json public README.md src vite.config.js Modern dark theme implementation for Maria's Portfolio
+*
+* ======================================================= */
+
+/* Define CSS Variables for Light Theme (default) */
+:root {
+  /* Main Colors */
+  --bg-primary: #f2f3f7;
+  --bg-secondary: #ffffff;
+  --bg-accent: #2c98f0;
+  
+  /* Text Colors */
+  --text-primary: rgba(0, 0, 0, 0.7);
+  --text-secondary: #000000;
+  --text-muted: #b3b3b3;
+  --text-white: #ffffff;
+  
+  /* UI Elements */
+  --border-color: #e6e6e6;
+  --shadow-color: rgba(0, 0, 0, 0.1);
+  --overlay-color: rgba(0, 0, 0, 0.5);
+  
+  /* Timeline Colors */
+  --timeline-line: #2c98f0;
+  --timeline-dot: #2c98f0;
+  
+  /* Card & Component Backgrounds */
+  --card-bg: #ffffff;
+  --sidebar-bg: #f2f3f7;
+  
+  /* Interactive Elements */
+  --hover-bg: rgba(44, 152, 240, 0.1);
+  --active-bg: #2c98f0;
+}
+
+/* Dark Theme Variables */
+[data-theme="dark"] {
+  /* Main Colors */
+  --bg-primary: #0f0f0f;
+  --bg-secondary: #1a1a1a;
+  --bg-accent: #4dabf7;
+  
+  /* Text Colors */
+  --text-primary: rgba(255, 255, 255, 0.85);
+  --text-secondary: #ffffff;
+  --text-muted: #888888;
+  --text-white: #ffffff;
+  
+  /* UI Elements */
+  --border-color: #333333;
+  --shadow-color: rgba(0, 0, 0, 0.3);
+  --overlay-color: rgba(0, 0, 0, 0.7);
+  
+  /* Timeline Colors */
+  --timeline-line: #4dabf7;
+  --timeline-dot: #4dabf7;
+  
+  /* Card & Component Backgrounds */
+  --card-bg: #1e1e1e;
+  --sidebar-bg: #121212;
+  
+  /* Interactive Elements */
+  --hover-bg: rgba(77, 171, 247, 0.1);
+  --active-bg: #4dabf7;
+}
+
+/* Apply Dark Theme Styles */
+[data-theme="dark"] body {
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+[data-theme="dark"] #colorlib-aside {
+  background: var(--sidebar-bg) !important;
+}
+
+[data-theme="dark"] #colorlib-main {
+  background: var(--bg-primary);
+}
+
+/* Text Elements */
+[data-theme="dark"] h1,
+[data-theme="dark"] h2,
+[data-theme="dark"] h3,
+[data-theme="dark"] h4,
+[data-theme="dark"] h5,
+[data-theme="dark"] h6 {
+  color: var(--text-secondary) !important;
+}
+
+[data-theme="dark"] p {
+  color: var(--text-primary);
+}
+
+[data-theme="dark"] .text-muted {
+  color: var(--text-muted) !important;
+}
+
+/* Links */
+[data-theme="dark"] a {
+  color: var(--bg-accent);
+}
+
+[data-theme="dark"] a:hover,
+[data-theme="dark"] a:focus,
+[data-theme="dark"] a:active {
+  color: var(--bg-accent);
+}
+
+/* Cards and Sections */
+[data-theme="dark"] .colorlib-narrow-content {
+  background: var(--bg-primary);
+}
+
+[data-theme="dark"] .timeline-item,
+[data-theme="dark"] .about-desc {
+  background: var(--card-bg);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  padding: 30px;
+  margin-bottom: 30px;
+  box-shadow: 0 2px 10px var(--shadow-color);
+  transition: all 0.3s ease;
+}
+
+/* Timeline specific styles */
+[data-theme="dark"] .timeline:before {
+  background: var(--timeline-line);
+}
+
+[data-theme="dark"] .timeline-heading h4 {
+  color: var(--bg-accent) !important;
+}
+
+[data-theme="dark"] .timeline-body p {
+  color: var(--text-primary);
+}
+
+/* Timeline Cards - More specific selectors */
+[data-theme="dark"] .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label {
+  background: var(--card-bg) !important;
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  padding: 30px;
+  box-shadow: 0 2px 10px var(--shadow-color);
+}
+
+[data-theme="dark"] .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label h2 {
+  color: var(--text-secondary) !important;
+}
+
+[data-theme="dark"] .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label h2 a {
+  color: var(--bg-accent) !important;
+}
+
+[data-theme="dark"] .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label h2 span {
+  color: var(--text-secondary) !important;
+  opacity: 0.7 !important;
+  -webkit-opacity: 0.7 !important;
+}
+
+[data-theme="dark"] .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label p {
+  color: var(--text-primary) !important;
+}
+
+[data-theme="dark"] .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label a {
+  color: var(--bg-accent) !important;
+}
+
+/* Icon styles */
+[data-theme="dark"] .icon {
+  color: var(--bg-accent);
+}
+
+[data-theme="dark"] .timeline-panel:before {
+  border-left-color: var(--border-color);
+  border-right-color: var(--border-color);
+}
+
+[data-theme="dark"] .timeline-panel:after {
+  border-left-color: var(--card-bg);
+  border-right-color: var(--card-bg);
+}
+
+/* Sidebar specific styles */
+[data-theme="dark"] #colorlib-aside .email,
+[data-theme="dark"] #colorlib-aside .number {
+  color: var(--text-primary);
+}
+
+[data-theme="dark"] #colorlib-aside #colorlib-logo a {
+  color: var(--text-secondary);
+}
+
+/* Navigation - More specific selectors to override main styles */
+[data-theme="dark"] #colorlib-aside #colorlib-main-menu ul li a {
+  color: var(--text-secondary) !important;
+}
+
+[data-theme="dark"] #colorlib-aside #colorlib-main-menu ul li a:hover {
+  color: var(--bg-accent) !important;
+}
+
+[data-theme="dark"] #colorlib-aside #colorlib-main-menu ul li.active a,
+[data-theme="dark"] #colorlib-aside #colorlib-main-menu ul li.colorlib-active a {
+  color: var(--bg-accent) !important;
+}
+
+/* Theme Toggle Button Styles */
+.theme-toggle {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background: var(--card-bg);
+  border: 2px solid var(--border-color);
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  z-index: 1000;
+  box-shadow: 0 2px 10px var(--shadow-color);
+}
+
+.theme-toggle:hover {
+  background: var(--hover-bg);
+  border-color: var(--bg-accent);
+  transform: scale(1.05);
+}
+
+.theme-toggle:active {
+  transform: scale(0.95);
+}
+
+/* Mobile responsiveness for theme toggle */
+@media screen and (max-width: 768px) {
+  .theme-toggle {
+    top: 15px;
+    right: 15px;
+    width: 45px;
+    height: 45px;
+    font-size: 18px;
+  }
+}
+
+/* Smooth transitions for all theme changes */
+* {
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+/* Ensure images and other elements don't get affected */
+[data-theme="dark"] img {
+  transition: none;
+}
+
+/* Loading bar dark theme */
+[data-theme="dark"] #loading-bar .bar {
+  background: var(--bg-accent);
+}
+
+[data-theme="dark"] #loading-bar .peg {
+  box-shadow: 0 0 10px var(--bg-accent), 0 0 5px var(--bg-accent);
+}
+
+/* Bootstrap overrides for dark theme */
+[data-theme="dark"] .btn-primary,
+[data-theme="dark"] .btn-primary.btn-learn {
+  background-color: var(--bg-accent) !important;
+  border-color: var(--bg-accent) !important;
+  color: var(--text-white) !important;
+}
+
+[data-theme="dark"] .btn-primary:hover,
+[data-theme="dark"] .btn-primary.btn-learn:hover,
+[data-theme="dark"] .btn-primary:focus,
+[data-theme="dark"] .btn-primary.btn-learn:focus {
+  background-color: var(--active-bg) !important;
+  border-color: var(--active-bg) !important;
+  color: var(--text-white) !important;
+}
+
+[data-theme="dark"] .btn-primary:active,
+[data-theme="dark"] .btn-primary.btn-learn:active {
+  background-color: var(--active-bg) !important;
+  border-color: var(--active-bg) !important;
+  color: var(--text-white) !important;
+}
+
+/* =======================================================
+ * Introduction Section - Always White Text
+ * ======================================================= */
+
+/* Introduction h1 should always be white regardless of theme */
+.slider-text .desc h1,
+#colorlib-hero .desc h1 {
+  color: #ffffff !important;
+}
+
+/* View Resume button should always have white text and border */
+.slider-text .desc .btn-primary,
+#colorlib-hero .desc .btn-primary {
+  color: #ffffff !important;
+  border-color: #ffffff !important;
+  background-color: transparent !important;
+}
+
+.slider-text .desc .btn-primary:hover,
+#colorlib-hero .desc .btn-primary:hover,
+.slider-text .desc .btn-primary:focus,
+#colorlib-hero .desc .btn-primary:focus {
+  color: #ffffff !important;
+  border-color: #ffffff !important;
+  background-color: rgba(255, 255, 255, 0.1) !important;
+}

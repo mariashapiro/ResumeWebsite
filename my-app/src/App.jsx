@@ -1,3 +1,4 @@
+import ThemeToggle from "./components/ThemeToggle.jsx";
 import React, { Component } from "react";
 import "./App.css";
 import Sidebar from "./components/sidebar.jsx";
@@ -8,23 +9,25 @@ import Activities from "./components/activities.jsx";
 import Hobbies from "./components/hobbies.jsx";
 import Projects from "./components/projects.jsx";
 import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 
 class App extends Component {
   render() {
     return (
       <>
         <Analytics />
+        <SpeedInsights />
+        <ThemeToggle />
         <div id="colorlib-page">
           <div id="container-wrap">
             <Sidebar></Sidebar>
             <div id="colorlib-main">
               <Introduction></Introduction>
               <About></About>
-              {/* <Hobbies></Hobbies> */}
               <Timeline></Timeline>
-              {/* <Activities></Activities> */}
-              {/* <Projects></Projects> */}
-              {/* <Blog></Blog> */}
+              {/* <Hobbies></Hobbies> 
+              <Activities></Activities>
+              <Projects></Projects>*/}
             </div>
           </div>
         </div>
