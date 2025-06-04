@@ -1,5 +1,5 @@
 import ThemeToggle from "./components/ThemeToggle.jsx";
-import React, { Component } from "react";
+import { Component } from "react";
 import "./App.css";
 import Sidebar from "./components/sidebar.jsx";
 import Introduction from "./components/introduction.jsx";
