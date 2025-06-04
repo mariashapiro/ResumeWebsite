@@ -1,21 +1,44 @@
 const Sidebar = () => {
-  const getFormattedDate = () => {
-    const date = new Date();
-    const monthNames = [
-      "January",
-      "February",
-      "March",
-      "April",
-      "May",
-      "June",
-      "July",
-      "August",
-      "September",
-      "October",
-      "November",
-      "December",
-    ];
-    return `${monthNames[date.getMonth()]} ${date.getFullYear()}`;
+  // ✅ Get the actual deployment/build date - automatically set during build!
+  const getDeploymentDate = () => {
+    try {
+      // __BUILD_DATE__ is injected by Vite at build time
+      const buildDate = new Date(__BUILD_DATE__);
+      const monthNames = [
+        "January",
+        "February",
+        "March",
+        "April",
+        "May",
+        "June",
+        "July",
+        "August",
+        "September",
+        "October",
+        "November",
+        "December",
+      ];
+      return `${monthNames[buildDate.getMonth()]} ${buildDate.getFullYear()}`;
+    } catch (error) {
+      // Fallback for development mode
+      console.log("Using fallback date in development mode");
+      const fallbackDate = new Date();
+      const monthNames = [
+        "January",
+        "February",
+        "March",
+        "April",
+        "May",
+        "June",
+        "July",
+        "August",
+        "September",
+        "October",
+        "November",
+        "December",
+      ];
+      return `${monthNames[fallbackDate.getMonth()]} ${fallbackDate.getFullYear()}`;
+    }
   };
 
   return (
@@ -83,8 +106,39 @@ const Sidebar = () => {
                 </a>
               </li>
             </ul>
+
+            {/* New Daniel Baking Project Link */}
+            <div style={{ marginTop: "20px", marginBottom: "15px" }}>
+              <a
+                href="https://marias.dev/danielbaking"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{
+                  display: "inline-block",
+                  padding: "8px 16px",
+                  backgroundColor: "var(--bg-accent)",
+                  color: "white",
+                  textDecoration: "none",
+                  borderRadius: "4px",
+                  fontSize: "14px",
+                  fontWeight: "500",
+                  transition: "all 0.3s ease",
+                }}
+                onMouseOver={(e) => {
+                  e.target.style.backgroundColor = "var(--active-bg)";
+                  e.target.style.transform = "scale(1.05)";
+                }}
+                onMouseOut={(e) => {
+                  e.target.style.backgroundColor = "var(--bg-accent)";
+                  e.target.style.transform = "scale(1)";
+                }}
+              >
+                🍰 Daniel Baking
+              </a>
+            </div>
+
             <p>
-              <small>Last updated {getFormattedDate()}</small>
+              <small>Last updated {getDeploymentDate()}</small>
             </p>
             <p>
               <small>
