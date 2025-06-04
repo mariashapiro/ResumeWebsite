@@ -9,13 +9,15 @@ import Activities from "./components/activities.jsx";
 import Hobbies from "./components/hobbies.jsx";
 import Projects from "./components/projects.jsx";
 import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 
 class App extends Component {
   render() {
     return (
       <>
-        <ThemeToggle />
         <Analytics />
+        <SpeedInsights />
+        <ThemeToggle />
         <div id="colorlib-page">
           <div id="container-wrap">
             <Sidebar></Sidebar>
