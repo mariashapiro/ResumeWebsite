@@ -21,8 +21,6 @@ export default defineConfig({
     // Inject build date at build time
     __BUILD_DATE__: JSON.stringify(new Date().toISOString()),
   },
-  // Ensure proper base path for Vercel
-  base: "./",
   // Handle public assets properly
   publicDir: "public",
 });

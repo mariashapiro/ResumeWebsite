@@ -158,7 +158,7 @@ const Timeline = () => {
                         • Delivered a full feature from design to PR on the Xbox App for PC, which has over <b>2 million</b> monthly active
                         users
                       </p>
-                      <img src="./images/GarrisonJumpList.png" alt="contextual menu for xbox app for pc" width="254" height="509"></img>
+                      <img src="/images/GarrisonJumpList.png" alt="contextual menu for xbox app for pc" width="254" height="509"></img>
                       <p>• Led initiative for Xbox branded facial coverings for the intern class</p>
                     </div>
                   </div>
