@@ -1129,7 +1129,7 @@ body.offcanvas {
     display: -moz-inline-stack;
     display: inline-block;
     zoom: 1;
-    *display: inline; }
+     }
     .colorlib-social li a {
       font-size: 22px;
       color: #000;
@@ -1137,7 +1137,7 @@ body.offcanvas {
       display: -moz-inline-stack;
       display: inline-block;
       zoom: 1;
-      *display: inline;
+      
       -webkit-border-radius: 7px;
       -moz-border-radius: 7px;
       -ms-border-radius: 7px;
@@ -1353,7 +1353,7 @@ body.offcanvas {
     display: -moz-inline-stack;
     display: inline-block;
     zoom: 1;
-    *display: inline;
+    
     width: 30px;
     height: 2px;
     color: #000;
@@ -1485,5 +1485,7 @@ body.offcanvas {
 .ldBar.no-percent .ldBar-label:after {
   content: "";
 }
+
+/* CSS syntax now properly balanced */
 
   
