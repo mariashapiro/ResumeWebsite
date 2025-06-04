@@ -43,6 +43,7 @@ export default class Sidebar extends Component {
               <span className="email">
                 <i className="icon-mail"></i> resumesite[@]kora.anonaddy.me
               </span>
+              <br />
             </div>
             <nav id="colorlib-main-menu" role="navigation" className="navbar">
               <div id="navbar" className="collapse">
