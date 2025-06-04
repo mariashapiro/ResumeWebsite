@@ -1,12 +1,12 @@
 import React, { Component } from "react";
 import "./App.css";
-import Sidebar from "./components/sidebar";
-import Introduction from "./components/introduction";
-import About from "./components/about";
-import Timeline from "./components/timeline";
-import Activities from "./components/activities";
-import Hobbies from "./components/hobbies";
-import Projects from "./components/projects";
+import Sidebar from "./components/sidebar.jsx";
+import Introduction from "./components/introduction.jsx";
+import About from "./components/about.jsx";
+import Timeline from "./components/timeline.jsx";
+import Activities from "./components/activities.jsx";
+import Hobbies from "./components/hobbies.jsx";
+import Projects from "./components/projects.jsx";
 import { Analytics } from "@vercel/analytics/react";
 
 class App extends Component {
